@@ -1,0 +1,186 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.flexdivBtns {
+	display: flex;
+	justify-content: center;
+}
+.inpsSearch {
+	width: 400px;
+	height: 30px;
+	border: solid 2px #ccc;
+	border-radius: 50px;
+	background: green;
+}
+.shearch {
+	width: 50px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: orange;
+	border-radius: 50px;
+	position: absolute;
+	right: 0px;
+}
+.flexsearch {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.btnsPR {
+	margin-right: 15px;
+	border: 4px solid purple;
+	border-radius: 50px;
+	padding: 16px 15px;
+	transition: 0.5s;
+	background: orange;
+}
+.btnsCr {
+	border: 4px solid purple;
+	border-radius: 50px;
+	padding: 16px 30px;
+	transition: 0.5s;
+	background: orange;
+}
+.btnsPR:hover {
+	background: aqua;
+	cursor: pointer;
+}
+.btnsCr:hover {
+	background: aqua;
+	cursor: pointer;
+}
+
+.flexdivinps {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 100px;
+	border: 2px solid black;
+	width: 350px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.flexdivinps input {
+	width: 200px;
+	height: 30px;
+	border-radius: 50px;
+	margin-bottom: 5px;
+	border: 2px solid blue;
+}
+.btnscreatproduct {
+	padding: 16px 10px;
+	margin-top: 5px;
+	border: 3px solid aqua;
+	border-radius: 50px;
+	transition: 0.5;
+}
+.btnscreatproduct:hover {
+	background: green;
+	cursor: pointer;
+}
+.flexdivinps {
+	display: none;
+}
+.products1 {
+	width: 600px;
+	height: 350px;
+	border: 4px solid aqua;
+	margin-bottom: 15px;
+	margin-left: 5px;
+	background: rgb(72, 72, 255);
+	display: flex;
+}
+.products1 img {
+	width: 100%;
+	height: 100%;
+}
+.borderdivIMG {
+	width: 300px;
+	height: 330px;
+	border: 4px solid black;
+	margin-left: 5px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.divINFO {
+	width: 280px;
+	height: 250px;
+	background: aqua;
+	margin: 0 auto;
+	margin-top: 6px;
+	font-size: 20px;
+	text-align: center;
+}
+.priceDIV {
+	border: 2px solid black;
+	padding: 16px 8px;
+	margin-top: 60px;
+	background: orange;
+	transition: 0.5s;
+}
+.priceDIV:hover {
+	background: green;
+	cursor: pointer;
+}
+.btnsBUY {
+	padding: 16px 60px;
+	margin-top: 5px;
+	border-radius: 50px;
+	background: rgb(255, 211, 130);
+	transition: 0.5s;
+}
+.btnsBUY:hover {
+	background: greenyellow;
+	cursor: pointer;
+}
+main {
+	justify-content: space-around;
+}
+.searchPRODUCT {
+	width: 400px;
+	height: 200px;
+	background: rgb(72, 72, 255);
+	border: 4px solid aqua;
+	display: flex;
+}
+.searchPRODUCT .imgsherc {
+	width: 180px;
+	height: 180px;
+	margin-top: 5px;
+}
+.textGbm {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+.boxbi {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flextext {
+	display: flex;
+	justify-content: center;
+}
+
+.flextext .boxtext {
+	padding: 16px 8px;
+	border-radius: 50px;
+	background: orange;
+	border: 2px solid black;
+	transition: 0.5s;
+}
+.boxtext:hover {
+	cursor: pointer;
+	background: green;
+}
+.searchidProds img {
+	width: 180px;
+}
